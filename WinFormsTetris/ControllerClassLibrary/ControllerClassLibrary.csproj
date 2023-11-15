@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IViewForGameOverController\ViewInterfaces.csproj" />
+    <ProjectReference Include="..\ModelClassLibrary\ModelClassLibrary.csproj" />
+    <ProjectReference Include="..\ModelGameRezultsClassLibrary\ModelWorkLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="E:\1\2021-09-21 Анастасия - Тетрис - MVC\!\Корзина\WinFormsTetris\ControllerClassLibrary\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="E:\1\2021-09-21 Анастасия - Тетрис - MVC\!\Корзина\WinFormsTetris\ControllerClassLibrary\.editorconfig" />
+  </ItemGroup>
+
+</Project>
